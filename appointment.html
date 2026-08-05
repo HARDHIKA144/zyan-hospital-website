@@ -23,22 +23,22 @@
         <form onsubmit="bookAppointment(event)">
             <div class="form-row">
                 <label>Email</label>
-                <input type="email" placeholder="Enter your email" required>
+                <input type="email" name ="email" placeholder="Enter your email" required>
             </div>
             <div class="form-row">
                 <label>Password</label>
-                <input type="password" placeholder="Enter your password"
+                <input type="password" name ="password" placeholder ="Enter your password"
                 pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]).{6,}"
                 title="Password must contain at least 6 characters, 1 uppercase letter, 
                 1 lowercase letter, 1 number, and 1 special character"required>
             </div>
             <div class="form-row">
                 <label>Name</label>
-                <input type="text" placeholder="Enter your name" required>
+                <input type="text" name="name" placeholder="Enter your name" required>
             </div>
             <div class="form-row">
                 <label>Phone No</label>
-                <input type="number" placeholder="enter your phone number" maxlength="12" required>
+                <input type="tel" name="phone" placeholder="enter your phone number" maxlength="12" required>
             </div>
             <div class="form-row">
                 <label>Gender</label>
@@ -55,7 +55,7 @@
             </div>
             <div class="form-row">
                 <label>Address</label>
-                <textarea rows="3" placeholder="Enter your address" required></textarea>
+                <textarea rows="3" name="address" placeholder="Enter your address" required></textarea>
             </div>
             <button>Submit</button>
         </form>
