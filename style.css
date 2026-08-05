@@ -250,12 +250,14 @@ input[type="number"] {
     outline: none;
 }
 .gender-options {
-    display: inline-block;
+    display:flex;
 }
 .gender-options label {
-    display:inline-block;
+    display:flex
     align-items: center;
     font-size: 17px;
+    gap: 4px;
+    width: auto;
 }
 .gender-options input[type="radio"] {
     width: 18px;
