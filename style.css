@@ -253,7 +253,7 @@ input[type="number"] {
     display:flex;
 }
 .gender-options label {
-    display:flex
+    display:flex;
     align-items: center;
     font-size: 17px;
     gap: 4px;
