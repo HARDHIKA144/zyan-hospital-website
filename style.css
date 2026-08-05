@@ -239,7 +239,7 @@ label {
 input[type="email"],
 input[type="password"],
 input[type="text"],
-input[type="phone"] {
+input[type="tel"] {
     width: 380px;
     height: 45px;
     padding: 8px 12px;
